@@ -10,9 +10,15 @@ define('DB_PASS','');
 define('DB_NAME','bbdms');*/
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbport = getenv("MYSQL_SERVICE_PORT");
-$dbuser = getenv("databaseuser");
+/*$dbuser = getenv("databaseuser");
 $dbpwd = getenv("databasepassword");
 $dbname = getenv("databasename");
+*/
+
+$dbuser = 'user1'
+$dbpwd = 'user1';
+$dbname = 'bbdms';
+
 
 // Establish database connection.
 try
