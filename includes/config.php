@@ -11,7 +11,7 @@ define('DB_NAME','bbdms');*/
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbport = getenv("MYSQL_SERVICE_PORT");
 $dbuser = "root";
-$dbpwd = "";
+$dbpwd = "redhat";
 $dbname = getenv("databasename");
 
 // Establish database connection.
